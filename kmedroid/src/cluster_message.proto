@@ -1,0 +1,9 @@
+// See README.txt for information and build instructions.
+
+option java_outer_classname = "ClusterMessageProtos";
+
+message ClusterMessage {
+  required int32 image_id = 1;
+  required float radius_variance = 2;
+}
+
